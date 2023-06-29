@@ -5,23 +5,20 @@ class Shapes {
         this.shape = shape;
         this.shapeColor = shapeColor;
     }
+    setColor(color) {
+        return color
+    }
+    
+    // Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
+    render(renderShape) {
+        return renderShape
+    }
+    // function generateSVG(data) {
+    //     return ` ${data.characters}
+        
+    //     `
+    // } 
+    // module.exports = generateSVG;
 }
 
-class Circle extends Shapes {
-    constructor(characters, textColor, shape, shapeColor) {
-        super(characters, textColor, shape, shapeColor);
-    }
-}
-class Square extends Shapes {
-    constructor(characters, textColor, shape, shapeColor) {
-        super(characters, textColor, shape, shapeColor);
-        
-    }
-}
-// function generateSVG(data) {
-//     return ` ${data.characters}
-    
-//     `
-// } 
-// module.exports = generateSVG;
 module.exports = Shapes;
