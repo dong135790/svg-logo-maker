@@ -1,4 +1,3 @@
-const Shapes = require('./shapes')
 const Triangle = require('./triangle')
 const Square = require('./square')
 const Circle = require('./circle')
