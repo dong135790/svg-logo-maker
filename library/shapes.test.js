@@ -9,7 +9,7 @@ describe('Triangle', () => {
         shape.setColor("blue");
         const b = '<polygon points="150, 18 244, 182 56, 182" fill="blue" />'
         // // Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
-        expect(shape.render(b)).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
+        expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
     })
 })
 
@@ -19,7 +19,7 @@ describe('Circle', () => {
         shape.setColor("blue");
         const b = '<polygon points="150, 18 244, 182 56, 182" fill="blue" />'
         // // Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
-        expect(shape.render(b)).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
+        expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
     })
 })
 
@@ -29,6 +29,6 @@ describe('Square', () => {
         shape.setColor("blue");
         const b = '<polygon points="150, 18 244, 182 56, 182" fill="blue" />'
         // // Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
-        expect(shape.render(b)).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
+        expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');  
     })
 })
