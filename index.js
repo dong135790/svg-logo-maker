@@ -37,7 +37,7 @@ const questions = [
 // TODO Create a function to write SVG file
 // function writeToFile(fileName, data) {
     // fs.writeFileSync('./examples/logo.svg', data)
-// }
+// } com com
 
 // TODO Create a function to initialize app
 function init () {
